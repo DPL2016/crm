@@ -34,7 +34,7 @@
     <div class="login-box-body" style="background-color: transparent">
         <c:if test="${not empty message}">
             <c:choose>
-                <c:when test="${message.state=='success'}">
+                <c:when test="${message.state =='success'}">
                     <div class="alert alert-success">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
